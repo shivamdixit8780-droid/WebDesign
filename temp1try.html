@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tempw3try</title>
+    <style>
+        .MainCon{
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            width: 100px;
+            height: 50px;
+            position: fixed;
+            z-index: 2;
+            
+            
+        }
+        .Box{
+        display: inline-block;
+        }
+        .subCon{
+            display: inline-block;
+            font-size: large;
+            height: 50px;
+            padding: 15px;
+        }
+        #imgCon{
+            height:auto;
+            width: 100px;
+            position: relative;
+            margin-top: 50px;
+        }
+    
+        #heading{
+            position: absolute;
+            bottom: 30px;
+            width: 100%;
+            color: whitesmoke;
+            left: 530px;
+            text-align: center;
+        }
+        .text{
+            position: absolute;
+        }
+        .pagetext h1{
+            text-align: center;
+            
+        }
+        .pagetext p{
+            text-align: center;
+            font-style: italic;
+        }
+        .card4{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            text-align: center;
+        }
+        
+    
+
+        .conatainer2{
+            background-color: black;
+            color: white;
+
+        }
+        .card8{
+            width: 700px;
+            margin: 0px auto;
+            text-align: center;
+        }
+        .month{
+            background-color: white;
+            color: gray;
+            border: 1px solid gray;
+        }
+        .mon1, .mon2, .mon3{
+            list-style:none;
+            text-align: left;
+            padding: 10px;
+            border-top:1px solid gray
+
+        }
+        .mon1 span, .mon2 span{
+            background-color: orangered;
+            color: white;
+            padding: 5px;
+            margin-left: 15px;
+            border-radius: 5px;
+        }
+        .mon3{
+            position:relative;
+        }
+        .mon3 span{
+            position: absolute;
+            right: 30px;
+            z-index: 10;
+            color:rgb(249,251,251);
+            background-color: rgb(0,0,0);
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            border-radius: 10px;
+
+        }
+        .card8{
+            display: inline;
+        }
+        .card10{
+            border: 1px solid green;
+            width: 100px;
+            background-color: black;
+            color: white;
+            display: inline-block;
+         
+            gap:50px;
+        }
+        .card10{
+            width: 200px;
+            height: 150px;
+        }
+        .buyticket{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            width: 90px;
+            height: 20px;
+            font-size: 10px;
+            text-align: center;
+        }
+        .buyticket:hover{
+            background-color: gray;
+        }
+
+        .card11{
+            text-align: center;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="MainCon">
+        <div class="Box">
+        <div class="subCon">HOME</div>
+        <div class="subCon">BAND</div>
+        <div class="subCon">TOUR</div>
+        <div class="subCon">CONTECT</div>
+        <div class="subCon">MORE</div>
+        <div class="iconCon">Icon</div>
+
+        <!-- <div class="moreInfo">
+            <div>box1</div>
+            <div>box2</div>
+            <div>box3</div>
+        </div>
+        </button></div>
+        </div> -->
+        </div>
+    </div>
+    <div id="imgCon">
+        <img src="https://www.w3schools.com/w3images/chicago.jpg" alt="image">
+        <div id="heading">
+            <h2>New York</h2>
+            <p>A nigh we won't forget</p>
+        </div>
+    </div>    
+
+        <div class="page2">
+            <div class="pagetext">
+                <h1>THE BAND</h1>
+                <p>We Love Music</p>
+                <p2>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p2>
+
+                <div class="card4">
+                    <div class="card5">
+                        <p3>Name</p3><img src="bandmember.jpg" alt="bandimg"></div>
+                    <div class="card6">
+                        <p3>Name</p3><img src="bandmember.jpg" alt="bandimg"></div>
+                    <div class="card7">
+                        <p3>Name</p3><img src="bandmember.jpg" alt="bandimg"></div>
+                </div>
+            </div>
+        </div>
+
+    <div class="conatainer2">
+        <div class="card8">
+        <h1>Tour Dates</h1>
+        <p>remamber to book your tickests</p>
+        <ul class="month">
+            <li class="mon1">September <span>sold out</span></li>
+            <li class="mon2">October <span>sold out</span></li>
+            <li class="mon3">November <span>3</span></li>
+        </ul>
+
+        <div class="card9">
+            <div class="card10">
+                <img src="newyork.jpg" alt="">
+                <h4>New York</h4>
+                <h4>Fri 27 Nov 2016</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis tenetur sunt earum modi libero delectus dolorum.</p>
+                <div class="buyticket">Buy ticket</div>
+            </div>
+            <div class="card10">
+                <img src="paris.jpg" alt="">
+                <h4>paris</h4>
+                <h4>Sat 28 Nov 2016</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis tenetur sunt earum modi libero delectus dolorum.</p>
+                <div class="buyticket">Buy ticket</div>
+            </div>
+            <div class="card10">
+                <img src="sanfran.jpg" alt="">
+                <h4>sanfran</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam blanditiis tenetur sunt earum modi libero delectus dolorum</p>
+                <div class="buyticket">Buy ticket</div>
+            </div>
+        </div>
+        </div>
+    
+    </div>    
+    <div class="Lastpage">
+        <div class="card11">
+        <h2>CONTACT</h2>
+        <p>Fan? Drop a note!</p>
+        </div>
+
+        <div class="card11">
+            <p> Chicago, US
+                Phone: +00 151515
+                Email: mail@mail.com</p>
+        </div>
+
+        <div class="card11">
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
